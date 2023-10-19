@@ -1,2 +1,2 @@
 # OpenGL-Simple-Game
-A game made with OpenCL
+A simple 3D game made with OpenCL
