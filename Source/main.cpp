@@ -2,10 +2,10 @@
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
 
-#include"shaderClass.h"
-#include"VAO.h"
-#include"VBO.h"
-#include"EBO.h"
+#include"../Header/shaderClass.h"
+#include"../Header/VAO.h"
+#include"../Header/VBO.h"
+#include"../Header/EBO.h"
 
 
 
@@ -50,7 +50,7 @@ int main()
 
 
 
-	Shader shaderProgram("default.vert", "default.frag");
+	Shader shaderProgram("default.vert", "default.frag","Shader/");
 
 
 

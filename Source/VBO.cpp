@@ -1,4 +1,4 @@
-#include"VBO.h"
+#include"../Header/VBO.h"
 
 //generates a Vertex Buffer Object and links it to vertices
 VBO::VBO(GLfloat* vertices, GLsizeiptr size)

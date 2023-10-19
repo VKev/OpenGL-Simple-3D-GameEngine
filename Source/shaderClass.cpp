@@ -1,9 +1,14 @@
-#include"shaderClass.h"
+#include"../Header/shaderClass.h"
 
 // Reads a text file and outputs a string with everything in the text file
-std::string get_file_contents(const char* filename)
+std::string get_file_contents(const char* filename, const char* path)
 {
-	std::ifstream in(filename, std::ios::binary);
+	
+	std::ifstream in;
+	std::string fileName = filename;
+	std::string filePath = path;
+	fileName = filePath + fileName;
+	in.open(fileName);
 	if (in)
 	{
 		std::string contents;
@@ -17,9 +22,9 @@ std::string get_file_contents(const char* filename)
 	throw(errno);
 }
 
-Shader::Shader(const char* vertexFile, const char* fragmentFile) {
-	std::string vertexCode = get_file_contents(vertexFile);
-	std::string fragmentCode = get_file_contents(fragmentFile);
+Shader::Shader(const char* vertexFile, const char* fragmentFile, const char* path) {
+	std::string vertexCode = get_file_contents(vertexFile, path);
+	std::string fragmentCode = get_file_contents(fragmentFile, path);
 
 	const char* vertexSource = vertexCode.c_str();
 	const char* fragmentSource = fragmentCode.c_str();
