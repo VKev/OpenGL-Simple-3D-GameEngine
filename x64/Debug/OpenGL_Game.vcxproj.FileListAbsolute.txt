@@ -1,1 +1,0 @@
-C:\MyLaptop\VisualStudio\OpenGL_Game\x64\Debug\OpenGL_Game.exe
