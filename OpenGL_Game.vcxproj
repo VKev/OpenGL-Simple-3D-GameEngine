@@ -137,10 +137,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c" />
+    <ClCompile Include="Libraries\lib\glad.c" />
     <ClCompile Include="Source\EBO.cpp" />
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\shaderClass.cpp" />
+    <ClCompile Include="Source\stb.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
     <ClCompile Include="Source\VAO.cpp" />
     <ClCompile Include="Source\VBO.cpp" />
   </ItemGroup>
@@ -151,8 +153,12 @@
   <ItemGroup>
     <ClInclude Include="Header\EBO.h" />
     <ClInclude Include="Header\shaderClass.h" />
+    <ClInclude Include="Header\Texture.h" />
     <ClInclude Include="Header\VAO.h" />
     <ClInclude Include="Header\VBO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Texture\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
