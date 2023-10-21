@@ -36,13 +36,16 @@
     <ClCompile Include="Source\VBO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\lib\glad.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\stb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\lib\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -51,6 +54,12 @@
       <Filter>Resource Files\Shader</Filter>
     </None>
     <None Include="Shader\default.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shader\light.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shader\light.vert">
       <Filter>Resource Files\Shader</Filter>
     </None>
   </ItemGroup>
@@ -68,6 +77,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

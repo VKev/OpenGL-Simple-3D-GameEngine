@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Libraries\lib\glad.c" />
+    <ClCompile Include="Source\Camera.cpp" />
     <ClCompile Include="Source\EBO.cpp" />
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\shaderClass.cpp" />
@@ -149,8 +150,11 @@
   <ItemGroup>
     <None Include="Shader\default.frag" />
     <None Include="Shader\default.vert" />
+    <None Include="Shader\light.frag" />
+    <None Include="Shader\light.vert" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\Camera.h" />
     <ClInclude Include="Header\EBO.h" />
     <ClInclude Include="Header\shaderClass.h" />
     <ClInclude Include="Header\Texture.h" />
