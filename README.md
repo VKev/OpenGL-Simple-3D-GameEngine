@@ -7,4 +7,5 @@ Libraries:
     -GLFW
     -KHR
     -stb
+    -glm
     

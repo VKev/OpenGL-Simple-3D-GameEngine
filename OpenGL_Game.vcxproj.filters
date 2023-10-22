@@ -48,6 +48,9 @@
     <ClCompile Include="Source\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\default.frag">
@@ -82,9 +85,21 @@
     <ClInclude Include="Header\Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Texture\wall.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="Texture\FloorSpec.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="Texture\mario.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="Texture\Floor.png">
       <Filter>Resource Files\Texture</Filter>
     </Image>
   </ItemGroup>

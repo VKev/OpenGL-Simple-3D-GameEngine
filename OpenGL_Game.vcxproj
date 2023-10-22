@@ -141,6 +141,7 @@
     <ClCompile Include="Source\Camera.cpp" />
     <ClCompile Include="Source\EBO.cpp" />
     <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
     <ClCompile Include="Source\shaderClass.cpp" />
     <ClCompile Include="Source\stb.cpp" />
     <ClCompile Include="Source\Texture.cpp" />
@@ -156,12 +157,16 @@
   <ItemGroup>
     <ClInclude Include="Header\Camera.h" />
     <ClInclude Include="Header\EBO.h" />
+    <ClInclude Include="Header\Mesh.h" />
     <ClInclude Include="Header\shaderClass.h" />
     <ClInclude Include="Header\Texture.h" />
     <ClInclude Include="Header\VAO.h" />
     <ClInclude Include="Header\VBO.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Texture\Floor.png" />
+    <Image Include="Texture\FloorSpec.png" />
+    <Image Include="Texture\mario.png" />
     <Image Include="Texture\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
