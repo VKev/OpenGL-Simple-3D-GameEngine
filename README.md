@@ -1,5 +1,4 @@
-# OpenGL-Simple-Game
-A simple 3D game made with OpenCL
+# OpenGL-Simple-GameEngine
 
 Libraries:
 
